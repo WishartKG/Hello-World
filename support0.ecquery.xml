@@ -1,0 +1,103 @@
+<ECQuery type="Bentley.EC.Persistence.Query.ECQuery,Bentley.EC.Persistence.2.0" id="09fda548-11a5-4a85-a711-b14bf338f16d" maxResults="-1" isCaseSensitive="false" xmlns="http://www.bentley.com/schemas/Bentley.ECQuery.1.0">
+    <SearchClass ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" isPolymorphic="true" />
+    <SelectCriteria type="Bentley.EC.Persistence.Query.SelectCriteria,Bentley.EC.Persistence.2.0">
+        <AbstractSelectCriteria selectAllProperties="false" selectDistinctValues="false" type="Bentley.EC.Persistence.Query.SelectCriteria,Bentley.EC.Persistence.2.0">
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="CLIENT_ID" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="COLD_OFFSET" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="CONSTRUCTION_AREA" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="DEVICE" ecProperty="CONSTRUCTION_WORK_PACKAGE_1" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="DEVICE" ecProperty="CONSTRUCTION_WORK_PACKAGE_2" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="DEVICE" ecProperty="CONSTRUCTION_WORK_PACKAGE_3" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="DEVICE" ecProperty="CONSTRUCTION_WORK_PACKAGE_4" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="DEVICE" ecProperty="CONSTRUCTION_WORK_PACKAGE_5" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="DESCRIPTION" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="DESIGN_MOVEMENTS_EW" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="DESIGN_MOVEMENTS_NS" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="DESIGN_MOVEMENTS_VERTICAL" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="DESIGN_STATE" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="DESIGN_TEMP" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="EMB_STEEL_PLATE_REQ" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ENGINEERED" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ENGINEER_WORK_PACKAGE" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="REMARKS" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="HAN_LUG_STEEL" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="HYDRO_LOAD" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="INSTALL_SPEC" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="DIMENSION_NOTES" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ISO_SHT_DWG_NO" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="NAME" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="NEW_FND_REQ" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="NOTES" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="NOTES_2" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="NOTES_3" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="OCCASIONAL_LOAD_EW" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="OCCASIONAL_LOAD_NS" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="OCCASIONAL_LOAD_VERTICAL" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="OPERATING_LOAD_EW" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="OPERATING_LOAD_NS" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="OPERATING_LOAD_VERTICAL" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="PIPE_DIRECTION" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="PIPE_ELEV" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="PIPE_EW_COLROW" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="PIPE_INSULATION_THICKNESS" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="PIPE_NS_COLROW" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="PIPE_SCHEDULE" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="PIPE_SIZE" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="PIPELINE_NAME" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="PIP_WT_EMPTY" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="PIP_WT_FULL" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="PURCH_SPEC" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="DIMENSION_REPORT" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="SEE_SHT_REQ" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="SHOP_FIELD" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="SHORT_DESC" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="SPEC_DIM" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="SPECIFICATION" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ST_DIRECTION" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ST_DIRECTION2" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ST_ELEV" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ST_ELEV2" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ST_EW_COLROW" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ST_EW_COLROW2" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ST_NS_COLROW" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ST_NS_COLROW2" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ST_SHAPE" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="ST_SHAPE2" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="SUP_STEEL_REQ" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="SUPPORT_NAME" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="SYSTEM" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="P_TRAIN" />
+            <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="UNIT" />
+        </AbstractSelectCriteria>
+        <RelatedInstanceSelectCriteria type="Bentley.EC.Persistence.Query.RelatedInstanceSelectCriteria,Bentley.EC.Persistence.2.0">
+            <SelectCriteria type="Bentley.EC.Persistence.Query.RelatedInstanceSelectCriteria,Bentley.EC.Persistence.2.0">
+                <AbstractSelectCriteria selectAllProperties="false" selectDistinctValues="false" type="Bentley.EC.Persistence.Query.RelatedInstanceSelectCriteria,Bentley.EC.Persistence.2.0">
+                    <ECPropertyReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" ecProperty="DESCRIPTION" />
+                </AbstractSelectCriteria>
+            </SelectCriteria>
+            <QueryRelatedClassSpecifier type="Bentley.EC.Persistence.Query.QueryRelatedClassSpecifier,Bentley.EC.Persistence.2.0">
+                <RelationshipClassReference ecSchema="OpenPlant_3D.01.07" ecClass="DEVICE_HAS_SUPPORT" isPolyMorphic="true" />
+                <RelatedInstanceDirection direction="Forward" />
+                <RelatedClassReference ecSchema="OpenPlant_3D.01.07" ecClass="SUPPORT" isPolyMorphic="true" />
+            </QueryRelatedClassSpecifier>
+        </RelatedInstanceSelectCriteria>
+    </SelectCriteria>
+    <WhereCriteria type="Bentley.EC.Persistence.Query.WhereCriteria,Bentley.EC.Persistence.2.0">
+        <WhereCriterion type="Bentley.EC.Persistence.Query.WhereCriteria,Bentley.EC.Persistence.2.0" />
+    </WhereCriteria>
+    <OrderByCriterion type="Bentley.EC.Persistence.Query.OrderByCriterion,Bentley.EC.Persistence.2.0" />
+    <TransientLookupCollection xmlns="http://www.bentley.com/schemas/Bentley.ECSerializable.1.0">
+        <Entry key="SearchType">
+            <DataContractObject type="Bentley.EC.AbstractUI.SearchType,Bentley.EC.AbstractUI.2.0">
+                <SearchType xmlns="http://schemas.datacontract.org/2004/07/Bentley.EC.AbstractUI">Class</SearchType>
+            </DataContractObject>
+        </Entry>
+        <Entry key="QUERYFORM_HIDDENCLASSES" typeCode="Boolean">true</Entry>
+        <Entry key="QUERYFORM_SHOWCLASSESWITHINSTANCES" typeCode="Boolean">false</Entry>
+        <Entry key="QUERYFORM_DEFAULTLOGICALOPERATOR">
+            <DataContractObject type="Bentley.EC.Persistence.Query.LogicalOperator,Bentley.EC.Persistence.2.0">
+                <LogicalOperator xmlns="http://schemas.datacontract.org/2004/07/Bentley.EC.Persistence.Query">AND</LogicalOperator>
+            </DataContractObject>
+        </Entry>
+    </TransientLookupCollection>
+</ECQuery>
