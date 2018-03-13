@@ -1,0 +1,309 @@
+############################################################################################################
+Change Date: 9/12/2014
+Admin: Kris Wishart
+Issue/Request:	Updated to support OPM/OPMS version 421				
+Note:  	 
+Updated files : OP3DSMV ; OPSM ; OP3D_I3DC ; OP3DSMS ; OP3DIM_DEFS
+Added files : JOINT.backward.ecquery.xml
+###########################################################################################################
+Change Date: 09/15/2014
+Admin: wishart
+Issue/Request:	Removed Rating Value map from pipe components		
+Note: set use value map to FALSE
+Updated File : OPSM 	 
+###########################################################################################################
+Change Date: 9/26/2014
+Admin: Kris Wishart
+Issue/Request:	Repaired Schema files corrupted during update to support OPM/OPMS version 421				
+Note:  	 
+Updated files :  OPSM 
+Added files : 
+
+############################################################################################################
+
+Change Date: 10/03/2014
+Admin: WISHART
+Issue/Request: change spec selection dialog for nozzles to include required fields. Add facing to info for pipe components
+Note:  Property display status for several properties of "nozzle" and "fluid port" classes copied into energy supplimental to override SPECGRID POISTION setting. removed Process area from Nozzle class in modeling views supplimental	 
+Updated Files: op3dsenergy ; op3dsmv
+###########################################################################################################
+Change Date: 11/07/2014
+Admin: wishart
+Issue/Request:	Added Iso_Descripton with calculated expression and set to pass to iso as IE_Descript. added Plating property and linked to spec			
+Note:  	 
+Updated Files: opsm ; op3dsmv ; isoext
+###########################################################################################################
+Change Date: 11/20/2014
+Admin: chrisman
+Issue/Request: Added custom attribute "PropertyMatchDuringReplace" to device_type_code.  Added list of classes to be matched.				
+Note:
+Updated Files: op3dsenergy 
+###########################################################################################################
+Change Date: 11/20/2014
+Admin: chrisman
+Issue/Request:	Moved the following properties to a new category(Purhcase/Install Info) in the element infor dialog:Constuction area, install spec, purchase spec, purchase indicator,
+shop/field, and responsible department.			
+Note: 
+Updated Files: op3dsenergy, op3dsmv	 
+###########################################################################################################
+Change Date: 12/09/2014
+Admin: chrisman
+Issue/Request:	Moved the following properties to a new category(General Information) in the element info dialog: Name, Description, Short description, alias, notes, notes2, notes3, remarks,
+design state, p&id drawing number, line number, iso sheet.		
+Note: most categories were moved from op3dsmv to op3dsenergy
+Updated Files: opsm, op3dsmv, op3dsenergy  	 
+###########################################################################################################
+Change Date: 12/09/2014
+Admin: 
+Issue/Request:	Moved the following properties to a new category(Design Values) in the element info dialog: Insulation Material, Insulation thickness, tracing, post weld heat treat, paint code,
+nominal diamter, rating, flange facing, specification, stnadard, schedule, length, model, code, inside diamter, outside dimater, material, detail sketch, normal operatiing pressure.			
+Note: 
+Updated Files: opsm, op3dsmv, op3dsenergy 
+###########################################################################################################
+Change Date: 12/09/2014
+Admin: chrisman
+Issue/Request:	moved the following properties to a new category (Operating conditions) in the element ifo dialog: weight, wall thickness, operating pressure, operating temperature,
+charpy impact V Hy notch test energy, charpy impact vnotch test energy		
+Note:  	the following properties were also hidden:operating pressure, operating temp, charpy impact, and charpy impact vnotch
+Updated Files: opsm, op3dsmv, op3dsenergy  
+###########################################################################################################
+Change Date: 12/09/2014
+Admin: chrisman
+Issue/Request:	moved the following properties to a new category (Services Required) in the element info dialog: No services requred, cooling water required, freeze protection required, base required,
+control wiring, control air required, electrical wiring required, services air required			
+Note:  	 
+Updated Files: opsm, op3dsmv, op3dsenergy 
+###########################################################################################################
+Change Date: 12/09/2014
+Admin: chrisman
+Issue/Request:	moved the following properties to a new cateogry (OPM information) in the element info dialog: guid, designer, update graphics, created timestamp, ec class name			
+Note:  	
+Updated Files: opsm, op3dsmv, op3dsenergy  
+###########################################################################################################
+Change Date: 12/09/2014
+Admin: chrisman
+Issue/Request:	moved the following properties to a new cateogry (Miscellaneous) in the element info dialog: Transformation matrix, option code, fabrication category, location x, location y, location z,
+inlet facing, outlet facing, screwed(y/n) system, unit, train, end connection in, end connection out, design code, end prep in, end prep out
+Note:  	Many of these properties were already listed in the misc category, but they were still moved from the op3dsms to op3dsenergy
+Updated Files: opsm, op3dsmv, op3dsenergy  
+###########################################################################################################
+Change Date: 12/09/2014
+Admin: chrisman
+Issue/Request:	updated the priority of the previous properties			
+Note:  	 The priority was not working with some properties.  A TSG ticket is pending
+Updated Files: op3dsenergy  
+###########################################################################################################
+Change Date: 12/10/2014
+Admin: Wishart
+Issue/Request:	Updated Bolt Iso_Descript to be unit nuetral, removed Calculated expression from Name propety of PIPE so that it inherits from Pipe component		
+Note:  	 
+Updated Files: opsm  
+###########################################################################################################
+Change Date: 12/16/2014
+Admin: Kris Wishart
+Issue/Request:	Updated to support OPM/OPMS version 440			
+Note:  	 
+Updated files : opsm; op3d_map_ap; isoext
+
+###########################################################################################################
+
+Change Date: 02/12/2015
+Admin: Kris Wishart
+Issue/Request:	Fixed Responsible Dept property so that it can be set manualy at the equipment class but is locked to the pipeline at the PipeComponent class; moved CalculatedECProperty custom attribute from DEVICE to PIPE_COMPONENT. Set Default Responsible Dept to Mechanical 
+Updated files : OP3DSENERGY
+
+Issue/Request:	Removed On-Hold and Design from component state value map
+Updated files : op3dsmv
+
+Issue/Request:	Removed OUTLET_RATE from Relief vavles
+Updated files : op3dsmv, opsm
+###########################################################################################################
+
+Change Date: 02/12/2015
+Admin: Kris Wishart
+Issue/Request:	added Pipeline_Class_Note to Pipeline
+Updated files : op3dsmv, opsm
+
+###########################################################################################################
+Change Date: 03/22/2015
+Admin: Ben Chrisman
+Issue/Request:	Updated priority of properties in the pipeline manager dialog
+Updated files : op3dsmv, opsm
+
+###########################################################################################################
+Change Date: 03/23/2015
+Admin: Ben Chrisman
+Issue/Request:	Updated priority of properties in the isosheet dialog
+Updated files : op3dsmv, opsm
+###########################################################################################################
+Change Incorperation Date: 07/31/2015
+Admin: Ben Chrisman
+Issue/Request:	In ISO_SHEET:PROJECT_NUMBER, changed the calculated ECProperty Specification: Is calculated as a deafult value only to "TRUE". fixes error of pulling ISO sheet number from local project rather than PW
+Updated files : opsm
+
+Admin: Ben Chrisman
+Issue/Request:	Deleted "Notes" from the Fastener class. Was over-writing our Notes/Notes2/Notes3 setup coming from "Device"
+Updated files : op3dsmv
+
+Admin: Ben Chrisman
+Issue/Request:	Added end prep conditions for push_on_restrained_joint. Made spec driven
+Updated files : opsm
+
+Admin: Wishart
+Issue/Request:	Added BE, PE, FGF end options to WELD_VALUE_MAP to support pipe specs
+Updated files :  opsm
+
+Admin: WISHART
+Issue/Request:	Moved Calculated Extression from Name property of "PIPING_COMPONENT" down to "PIPING_COMPONENT_NOT_TAGGED" to resolve issue with tagged components renaming in the published I-model
+Updated files : opsm
+
+Issue/Request:	Modified value in IE_DESCRIPT in "PIPING_COMPONENT_TAGGED" class, Default Bill of Materials Labels custom attribute. Removed same custom attribute from "INLINE_DEVICE" so that it inherits
+Updated files : isoext
+
+Admin: WISHART
+Issue/Request:	Fixed "Install Spec", "Purchase Spec", and "Resp_Desc" for classes "Seals" and "Fastener". required removing Ecexpressions and copying custom attributes from Device class to Seals and Fasteners
+Updated files : opsm, op3dsenergy
+
+Admin: WISHART
+Issue/Request:	Changed class name to CT_FITTING_END for isometric component custom attribute of INSTRUMENT_CONNECTION. Change Symbol to INSTR_CONN
+Issue/Request:	Changed class name to CT_FITTING_END for isometric component custom attribute of GAUGE. 
+Updated files : isoext
+
+Admin: WISHART
+Issue/Request:	Removed "PIPING_TERMINATION" and subclasses which were from old proof of concept that didn't work
+Updated files : isoext, op3d_i3Dc, opsm
+
+Admin: WISHART
+Issue/Request:	revised BOLT:ISO_DESCRIPTION to include spaces between unit marks
+Updated files : opsm
+
+
+Admin: WISHART
+Issue/Request:	Added IE_Value_Map to WELD_VALUE_MAP.FEMALE_COUPLING_END. end type will be used on PressFit pipe fittings
+Updated files : isoext
+
+###########################################################################################################
+Change Date: 08/21/2015
+Admin: Ben Chrisman
+Issue/Request:	Modified all valve operators to allow phyical size to be editable
+Updated files : op3dsmv
+###########################################################################################################
+Change Date: 09/25/2015
+Admin: Ben Chrisman
+Issue/Request:	Added new end preps in Weld value map class (resilient flanged, lug, and wafer)  Created new joint type for same.
+Updated files : opsm
+###########################################################################################################
+Change Date: 10/05/2015
+Admin: Ben Chrisman
+Issue/Request:	Removed a rogue default value on COOLING_TOWER
+Updated files : op3dim_defs
+###########################################################################################################
+Change Date: 11/13/2015
+Admin: Ben Chrisman
+Issue/Request:	Enabled editing of Angle control valve sizes (length from center to ends), hid LENGTH property
+Updated files : OP3dSMV
+###########################################################################################################
+Change Date: 12/04/2015
+Admin: Ben Chrisman
+Issue/Request: Added spec, schedule and location to welds so they can be reported; added dry weight to pipe nipples; added dry weights to actuators; added 22.5 3R elbow; added branch schedule and run schedule to be pulled from reports; added joint to taps (socketweldmale)
+Updated files : op3dsmv, OPSM, OP3dEnergySupplemental
+###########################################################################################################
+Change Date: 02/10/2016
+Admin: Ben Chrisman
+Issue/Request:	Added iso value map values for resilient joint types
+Updated files : isoext
+###########################################################################################################
+Change Date: 03/04/2016
+Admin: Ben Chrisman
+Issue/Request:	Brought in line with Template for upgrade to .581
+Updated files : all
+###########################################################################################################
+Change Date: 05/04/2016
+Admin: Ben Chrisman
+Issue/Request:	added script assembly info to correct resilient flange bolting 
+Updated files : OPSM
+###########################################################################################################
+\Change Date: 05/16/2016
+Admin: Ben Chrisman
+Issue/Request:	corrected typo:  From PURCHASE_SPEC to PURCH_SPEC under device_type_code property on DEVICE 
+Updated files : OP3D_energy
+###########################################################################################################
+Change Date: 08/23/2016
+Admin: Ben Chrisman
+Issue/Request:	changed teh system property on piping components to pull SYSTEM_NAME instead of SERVICE_NAME
+Updated files : OPSM
+###########################################################################################################
+###########################################################################################################
+Change Date: 11/01/2016	
+Admin: wishart
+Issue/Request:	Removed BOM custom attribute from CONTROL Valve so they inherit from tagged inline device.
+Issue/Request:	Added Flexible hose class from sooner project
+Updated files : isoext
+###########################################################################################################
+Change Date: 12/05/2016	
+Admin: Chrisman
+Issue/Request:	Added component port to Flame Arrestor so it can be used as custom component
+Updated files : OPSM, op3d_i3Dc
+###########################################################################################################
+Change Date: 01/20/2017	
+Admin: Chrisman
+Issue/Request:	Added unique weld coloring.  Added virtual attachments, and dissimilar material tag
+Updated files : OPSM, OP3DsupModViews, IsoExt
+###########################################################################################################
+Change Date: 01/26/2017	
+Admin: Chrisman
+Issue/Request:	Added TP_NUMBER and TP_TYPE to the Match during replace custom attribute
+Updated files : OP3D_Energy
+###########################################################################################################
+Change Date: 02/10/2017	
+Admin: Chrisman
+Issue/Request:	Replaced IE_SCALER and IE_TYPE on FLEXIBLE_HOSE
+Updated files : IsoExtra
+###########################################################################################################
+###########################################################################################################
+Change Date: 02/24/2017        
+Admin: Chrisman
+Issue/Request:        Add supplemental to support combined BV workspace, Removed Supplementals relocated to BV workspace
+New files :op3dsup_ong, op3dsup_pwr
+Removed Files: op3ddbmap, op3d_map_ap, op3D_map_pds, op3d_map_psds, op3d_map_spmm, extc
+###########################################################################################################
+Change Date: 03/22/2017
+Admin: Ben Chrisman
+Issue/Request:	Moved DETAIL_SKETCH to the General Info Tab, removed duplicate Support name properties 	
+Updated files : OP3DSup_Energy, OP3D_sup_modeling
+###########################################################################################################
+Change Date: 04/17/2017
+Admin: Ben Chrisman
+Issue/Request:	Updated storage path of ISO_SHEET for GOC 	
+Updated files : OP3D_sup_modeling
+###########################################################################################################
+Change Date: 1/10/2018
+Admin: Chrisman
+Issue/Request:	Synchronization of Pwr and OnG workspaces.  Multiple changes.
+Updated files : OP3DSENERGY, Sup Modeling, Sup_ModelingViews, Sup_IsoExt, Sup Info3d
+###########################################################################################################
+Change Date: 1/16/2018
+Admin: Walker
+Issue/Request:	Change name of Isometric symbol to BV_BRACKET_LUG_ISO
+Updated files : Sup_IsoExt
+###########################################################################################################
+Change Date: 1/18/2018
+Admin: Chrisman
+Issue/Request: Updated for version .306
+Updated File: op3d_sup_Mod, style.xml, lisocomp.cel
+############################################################################################################
+Change Date: 1/29/2018
+Admin: Chrisman
+Issue/Request: Show Service on Equipment and move to Tag category (also on PIPE_COMPONENT and fastener)
+Updated File: op3d_sup_Mod_View
+############################################################################################################
+Change Date: 1/31/2018
+Admin: Chrisman
+Issue/Request: Moved Supports Location_X,Y,Z from Sup Energy to Sup Metric Default values
+Updated File: op3d_Sup_Energy, OP3d_Sup_Metric_default
+############################################################################################################
+Change Date: 2/9/2018
+Admin: Chrisman
+Issue/Request: Cleaned up 200+ schema alignment changes for Beyond Compare.  No actual content changed
+Updated File: op3d_Sup_ModViews
+############################################################################################################
